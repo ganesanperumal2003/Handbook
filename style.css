@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url(hlo.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav {
+    padding: 20px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(2, 0, 7);
+    border-radius: 20px;
+    margin: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-size: large;
+    border: solid rgb(100, 112, 41) 2px;
+
+}
+
+.book-container {
+    width: 25%;
+    margin: 30px;
+    padding: 10px;
+    border: solid rgb(100, 112, 41) 2px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: rgb(4, 9, 20);
+    vertical-align: top;
+
+    
+    
+    
+}
+.container{
+    padding-bottom: 15px;
+}
+
+.book-container h2 {
+    color: rgb(1, 0, 3);
+}
+.book-container p {
+    color: rgb(207, 206, 209);
+}
+
+.book-container h4 {
+    color: rgb(7, 2, 83);
+}
+
+.book-container button {
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: black;
+    cursor: pointer;
+    border: solid rgb(100, 112, 41) 2px;
+    backdrop-filter: blur(50px);
+}
+
+#plusbtn {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    background-color: transparent;
+    color: black;
+    position: fixed;
+    border-radius: 100%;
+    font-size: 50px;
+    bottom: 30px;
+    right: 30px;
+    backdrop-filter: blur(20px);
+    border: solid rgb(100, 112, 41) 2px;
+
+}
+#overlay{
+    background: transparent;
+    backdrop-filter: blur(30px);
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#popup-box{
+    margin: 5px;
+    padding: 40px;
+    background-color:transparent ;
+    color: black;
+    width: 40%;
+    left: 25%;
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    border-radius: 5px;
+    display: none;
+    border: 2px solid black;
+
+}
+#popup-box input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 2px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+#popup-box textarea{
+    width: 100%;
+    background-color: transparent;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+#popup-box input::placeholder{
+    color: black;
+}
+#popup-box textarea::placeholder{
+    color: black;
+}
+#addbtn{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+#cancelbtn{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+#popup-box input:focus{
+    outline:none;
+}
+#popup-box textarea:focus{
+    outline:none;
+}

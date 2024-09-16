@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav">
+        <h1>Handbook</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2 >Front-End Developer</h2>
+            <h4 >Ganesan</h4>
+            <p > Junior Web Developer skilled in HTML, CSS, and JavaScript. Completed a Python course through Eduprep. Created user-friendly websites with responsive design.Worked on embedded projects, integrating hardware with software. Passionate about building efficient web solutions and enhancing user experience.</p>
+            <button onclick="del(event)">Delete</button>
+        </div>
+  
+
+
+    </div>
+    <button id="plusbtn">+</button>
+    <div id="overlay"></div>
+    <div id="popup-box">
+        <form>
+            <h1>Add Book</h1>
+            <input type="text" placeholder="Title Name" id="title-input">
+            <input type="text" placeholder="Author Name" id="author-input">
+            <textarea placeholder="Short Description" id="description-input"></textarea>
+            <button id="addbtn">Add</button>
+            <button id="cancelbtn">Cancel</button>
+        </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
